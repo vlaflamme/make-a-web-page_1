@@ -1,0 +1,51 @@
+/* defines universal styling */
+* {
+	font: Times;
+	background-color: Beige;
+}
+
+/* defines header 1 styling */
+h1 {
+	font-size: 150%;
+	color: blue;
+}
+
+/* defines header 2 styling */
+h2 {
+	color: orange;
+	font: Arial;
+	font-size: 125%;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+/* defines header 3 styling */
+h3 {
+	font: Georgia;
+	font-size: 100%;
+	color: DarkCyan;
+}
+
+/* defines how the size of the image will be displayed */
+.images {
+	width: 370px;
+	height: 175px;
+
+}
+
+/* begin adding box and border styling */
+div {
+	border-width: 2px;
+	border-style: double;
+	border-color: green;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+/* defines how to highlight key terms or ideas */
+strong {
+	color: Brown;
+	font-weight: bold;
+}
